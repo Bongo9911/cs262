@@ -1,4 +1,4 @@
-#CS262 - Lab 2
+# CS262 - Lab 2
 
 This lab is based on [CS 262 Lab 2](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html)
 
