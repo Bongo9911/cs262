@@ -9,15 +9,8 @@ export default function Header({ navigation }) {
     }
 
     return (
-        <View style={styles.header}>
+        <View>
             <MaterialIcons name='menu' size={28} onPress={openMenu} />
         </View>
     );
 };
-
-const styles = StyleSheet.create({
-    header: {
-        width: '100%',
-        height: '100%',
-    },
-})
