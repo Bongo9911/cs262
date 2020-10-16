@@ -35,8 +35,7 @@ CREATE TABLE Property (
 	ID integer,
 	gameID integer REFERENCES Game(ID), 
 	playerID integer REFERENCES Player(ID),
-	development integer,
-	PRIMARY KEY (ID, gameID, playerID)
+	development integer
 	);
 
 -- Allow users to select data from the tables.
